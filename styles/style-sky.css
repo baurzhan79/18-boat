@@ -1,0 +1,197 @@
+.seagull-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 20%;
+    display: flex;
+    animation: moveseagull 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveseagull {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(30px, 10px);
+    }
+}
+
+.seagull-leftwing-1 {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+    transform: translate(7px, 20px) rotate(-20deg);
+}
+
+.seagull-leftwing-2 {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+    transform: translate(2px, -23px) rotate(-45deg);
+}
+
+.seagull-rightwing-1 {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+    transform: translate(0px, -5px) rotate(-45deg);
+}
+
+.seagull-rightwing-2 {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 2px solid black;
+    transform: translate(-7px, -47px) rotate(-20deg);
+}
+
+.sun {
+    margin-top: 50px;
+    margin-right: 70px;
+    align-self: end;
+}
+
+.sun-core {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: suncore-shine 2s linear infinite alternate;
+    position: relative;
+}
+
+@keyframes suncore-shine {
+    0% {
+        background-color: yellow;
+        transform: scale(1);
+    }
+    50% {
+        background-color: khaki;
+        transform: scale(1.1);
+    }
+    100% {
+        background-color: yellow;
+        transform: scale(1);
+    }
+}
+
+.sunray-1 {
+    width: 85%;
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    animation: sunray-shine 2s linear infinite alternate;
+}
+
+.sunray-2 {
+    width: 85%;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+    animation: sunray-shine 2s linear infinite alternate;
+
+}
+
+.sunray-3 {
+    width: 80%;
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    transform: rotate(160deg);
+    animation: sunray-shine 1s linear infinite alternate;
+}
+
+.sunray-4 {
+    width: 80%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    transform: rotate(20deg);
+    animation: sunray-shine 1s linear infinite alternate;
+}
+
+.sunray-5 {
+    width: 70%;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    transform: rotate(130deg);
+    animation: sunray-shine 3s linear infinite alternate;
+}
+
+.sunray-6 {
+    width: 70%;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    transform: rotate(50deg);
+    animation: sunray-shine 3s linear infinite alternate;
+}
+
+.sunray-7 {
+    width: 60%;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    transform: rotate(90deg);
+    animation: sunray-shine 2s linear infinite alternate;
+}
+
+.sunray-8 {
+    width: 80%;
+    position: absolute;
+    top: -10px;
+    left: -45px;
+    transform: rotate(20deg);
+    animation: sunray-shine 1s linear infinite alternate;
+}
+
+.sunray-9 {
+    width: 80%;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    transform: rotate(160deg);
+    animation: sunray-shine 1s linear infinite alternate;
+}
+
+.sunray-10 {
+    width: 70%;
+    position: absolute;
+    top: -25px;
+    left: -20px;
+    transform: rotate(50deg);
+    animation: sunray-shine 3s linear infinite alternate;
+}
+
+.sunray-11 {
+    width: 70%;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    transform: rotate(130deg);
+    animation: sunray-shine 3s linear infinite alternate;
+}
+
+.sunray-12 {
+    width: 60%;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    transform: rotate(90deg);
+    animation: sunray-shine 2s linear infinite alternate;
+}
+
+@keyframes sunray-shine {
+    0% {
+        border-color: yellow;
+    }
+    50% {
+        border-color: white;
+    }
+    100% {
+        border-color: yellow;
+    }
+}
